@@ -6,6 +6,6 @@ export default () => {
   }
   return axios.create({
     headers: headers,
-    baseURL: '/api',
+    baseURL: 'http://localhost:3030/api',
   });
 };
